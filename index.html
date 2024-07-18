@@ -5,96 +5,95 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kalkulator BMI</title>
     <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
     <style>
         body {
-    font-family: 'Arial', sans-serif;
-    background: url('aset/background.jpg') no-repeat center center fixed;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    color: #333;
-}
+            font-family: 'Arial', sans-serif;
+            background: url('aset/background.jpg') no-repeat center center fixed;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            color: #333;
+        }
 
-.container {
-    background: rgba(255, 255, 255, 0.9);
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-    max-width: 400px;
-    width: 100%;
-    text-align: center;
-}
+        .container {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            width: 100%;
+            text-align: center;
+        }
 
-h1 {
-    margin-bottom: 20px;
-    color: #0072ff;
-}
+        h1 {
+            margin-bottom: 20px;
+            color: #0072ff;
+        }
 
-form {
-    display: flex;
-    flex-direction: column;
-}
+        form {
+            display: flex;
+            flex-direction: column;
+        }
 
-label {
-    margin-top: 10px;
-    text-align: left;
-}
+        label {
+            margin-top: 10px;
+            text-align: left;
+        }
 
-input, select {
-    margin-top: 5px;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    font-size: 1em;
-}
+        input, select {
+            margin-top: 5px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 1em;
+        }
 
-.button-group {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-}
+        .button-group {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
 
-button {
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 1em;
-    flex: 1;
-    margin: 0 5px;
-    transition: background 0.3s ease;
-}
+        button {
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+            flex: 1;
+            margin: 0 5px;
+            transition: background 0.3s ease;
+        }
 
-button[type="submit"] {
-    background-color: #0072ff;
-    color: white;
-}
+        button[type="submit"] {
+            background-color: #0072ff;
+            color: white;
+        }
 
-button[type="submit"]:hover {
-    background-color: #005bb5;
-}
+        button[type="submit"]:hover {
+            background-color: #005bb5;
+        }
 
-button[type="button"] {
-    background-color: #ccc;
-    color: #333;
-}
+        button[type="button"] {
+            background-color: #ccc;
+            color: #333;
+        }
 
-button[type="button"]:hover {
-    background-color: #999;
-}
+        button[type="button"]:hover {
+            background-color: #999;
+        }
 
-.result {
-    margin-top: 20px;
-    font-size: 1.2em;
-    color: #0072ff;
-}
-
+        .result {
+            margin-top: 20px;
+            font-size: 1.2em;
+            color: #0072ff;
+        }
     </style>
+</head>
+<body>
     <div class="container">
         <h1>Kalkulator BMI</h1>
         <form id="bmiForm">
@@ -114,6 +113,6 @@ button[type="button"]:hover {
         </form>
         <div id="result" class="result"></div>
     </div>
-    <script src="js/script.js"></script>
+    <script src="javascript.js"></script>
 </body>
 </html>
